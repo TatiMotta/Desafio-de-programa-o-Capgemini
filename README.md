@@ -1,4 +1,4 @@
-# Desafio-de-programa-o-Capgemini
+# :large_blue_diamond: Desafio-de-programa-o-Capgemini :large_blue_diamond:</p>
 <p align="center">:arrow_forward:<b>Instruções para rodar os desafios:arrow_backward: </p>
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:</p>
 * [Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) Versão 11 LTS </p>
@@ -21,9 +21,9 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 * Na aba Name escreva Main.</p>
 * Selecione a opção PUBLIC STATIC VOID MAIN e aperte finish.</p>
 * Depois é só abrir o repósitorio com os desafios:</p>
-*  1 - Mediana(https://github.com/TatiMotta/Desafio-de-programa-o-Capgemini/blob/main/desafio_mediana.java)</p>
-*  2 - Pares Vetor(https://github.com/TatiMotta/Desafio-de-programa-o-Capgemini/blob/main/Main.java)</p> 
-*  3 - Frase Encriptada(https://github.com/TatiMotta/Desafio-de-programa-o-Capgemini/blob/main/Main.java). </p>
+*  1 - Mediana:round_pushpin:(https://github.com/TatiMotta/Desafio-de-programa-o-Capgemini/blob/main/desafio_mediana.java)</p>
+*  2 - Pares Vetor:round_pushpin:(https://github.com/TatiMotta/Desafio-de-programa-o-Capgemini/blob/main/Main.java)</p> 
+*  3 - Frase Encriptada:round_pushpin:(https://github.com/TatiMotta/Desafio-de-programa-o-Capgemini/blob/main/Main.java). </p>
 * Copie todo o código e cole no eclipse.</p>
 * Salve, clique com o botão direito na aba Main.java.</p>
 *  :fast_forward:<i>>>Run As</p></i>
