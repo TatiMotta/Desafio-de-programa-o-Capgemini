@@ -22,7 +22,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 * Selecione a opção PUBLIC STATIC VOID MAIN e aperte finish.</p>
 * Depois é só abrir o repósitorio com os desafios:</p>
 *  1 - Mediana(https://github.com/TatiMotta/Desafio-de-programa-o-Capgemini/blob/main/desafio_mediana.java)</p>
-*  2 - Pares Vetor()</p> 
+*  2 - Pares Vetor(https://github.com/TatiMotta/Desafio-de-programa-o-Capgemini/blob/main/Main.java)</p> 
 *  3 - Frase Encriptada(https://github.com/TatiMotta/Desafio-de-programa-o-Capgemini/blob/main/Main.java). </p>
 * Copie todo o código e cole no eclipse.</p>
 * Salve, clique com o botão direito na aba Main.java.</p>
