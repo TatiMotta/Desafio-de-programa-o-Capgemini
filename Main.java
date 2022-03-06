@@ -1,39 +1,63 @@
+import java.io.PrintStream;
 import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
-		 
-		Scanner sc = new Scanner(System.in);
-		
-		int i, x, N;
-		
-		System.out.println("Olá, eu sou seu algoritmo!");
-		System.out.println("Quantos números você vai digitar? ");
-		N = sc.nextInt();
-		
-		int[] vet = new int[N];
-		
-		for (i = 0; i < N; i++) {
-			System.out.print("Digite um número: ");
-			vet[i] = sc.nextInt();
-		}
-		System.out.print("Digite um valor para x: ");
-		x = sc.nextInt();
-		
-		int par = 0;
-		
-		for (i=0; i<N; i++) {
-			for (int j=1; j<N; j++) {
-				if (vet[j] - vet[i] == x || vet[j] + vet[i] == x ) {
-					par = par +1;
-				}
-			}
-		}
-		System.out.println(par);
-		
-		
+  public static void main(String[] args) {
+    try {
+      Main programa = new Main();
+      programa.executar();
+    } catch (Throwable t) {
+      t.printStackTrace();
+    }
+  }
 
-	}
+  private static final Scanner in = new Scanner(System.in);
+  private static final PrintStream out = System.out;
 
+  public void executar() {
+    out.println("Olá, eu sou seu algoritmo!");
+    out.println("Escreva uma frase por favor!");
+    String frase = in.nextLine();
+    String fraseSemEspacos = frase.replaceAll("\\s+", "");
+
+    char[][] matriz = criarMatriz(fraseSemEspacos);
+
+    String fraseEncriptada = textoEncriptado(matriz);
+    out.println("Saída: \"" + fraseEncriptada + "\"");
+  }
+
+  private char[][] criarMatriz(String texto) {
+    char[] letras = texto.toCharArray();
+    int tamanho = letras.length;
+    int raizQuadrada = (int) Math.ceil(Math.sqrt(tamanho));
+    int colunas = raizQuadrada;
+    int linhas = (int) Math.ceil(tamanho / (double) colunas);
+    char[][] matriz = new char[linhas][colunas];
+    int lin = 0;
+    int col = 0;
+    for (int i = 0; i < tamanho; i++) {
+      matriz[lin][col] = letras[i];
+      col++;
+      if (col % colunas == 0) {
+        col = 0;
+        lin++;
+      }
+    }
+    return matriz;
+  }
+
+  private String textoEncriptado(char[][] matriz) {
+    StringBuilder texto = new StringBuilder();
+    for (int col = 0; col < matriz[0].length; col++) {
+      for (int lin = 0; lin < matriz.length; lin++) {
+        char letra = matriz[lin][col];
+        if (letra > 0) {
+          texto.append(letra);
+        }
+      }
+      texto.append(" ");
+    }
+    return texto.toString().trim();
+  }
 }
