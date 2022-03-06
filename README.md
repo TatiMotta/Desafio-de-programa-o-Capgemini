@@ -20,7 +20,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 * Apague o que estiver dentro da Package.</p>
 * Na aba Name escreva Main.</p>
 * Selecione a opção PUBLIC STATIC VOID MAIN e aperte finish.</p>
-* Depois é só abrir o repósitorio (https://github.com/TatiMotta/Desafio-de-programa-o-Capgemini) com os desafios 1, 2 e 3. </p>
+* Depois é só abrir o repósitorio com os desafios:
+*  1</p>
+*  2</p> 
+*  3(https://github.com/TatiMotta/Desafio-de-programa-o-Capgemini/blob/main/Main.java). </p>
 * Copie todo o código e cole no eclipse.</p>
 * Salve, clique com o botão direito na aba Main.java.</p>
 *  :fast_forward:<i>>>Run As</p></i>
